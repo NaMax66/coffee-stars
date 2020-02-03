@@ -1,0 +1,7 @@
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+.wrapper canvas {
+  margin-bottom: 1rem;
+}
