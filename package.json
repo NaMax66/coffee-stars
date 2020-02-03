@@ -1,0 +1,10 @@
+{
+  "name": "magic-stars",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "coffee -o lib/ -cw src/"
+  },
+  "author": "Max",
+  "license": "ISC"
+}
