@@ -6,5 +6,8 @@
     "start": "coffee -o lib/ -cw src/"
   },
   "author": "Max",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "coffeescript": "^2.5.1"
+  }
 }
