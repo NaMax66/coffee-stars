@@ -5,3 +5,8 @@
 .wrapper canvas {
   margin-bottom: 1rem;
 }
+
+#status {
+  width: 100px;
+  height: 100px;
+}
