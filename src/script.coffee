@@ -1,6 +1,7 @@
 starsCanvasElement = document.getElementById 'stars-canvas'
 
 starsCanvas = starsCanvasElement.getContext '2d'
+### начальная координата - левый средний угол звезды ###
 drawStar = (x0 = 0, y0 = 0) ->
   starsCanvas.beginPath()
   starsCanvas.moveTo x0,70 + y0
@@ -18,4 +19,8 @@ drawStar = (x0 = 0, y0 = 0) ->
   starsCanvas.stroke()
 
 drawStar(20, 20)
-drawStar(300, 20)
+drawStar(380, 20)
+drawStar(200, 200)
+drawStar(200, 200)
+drawStar(20, 380)
+drawStar(380, 380)
