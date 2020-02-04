@@ -17,9 +17,9 @@ drawStar = (x0 = 0, y0 = 0) ->
   starsCanvas.strokeStyle = '#b4241b'
   starsCanvas.stroke()
 
-drawStar(20, 20)
-drawStar(380, 20)
-drawStar(200, 200)
-drawStar(200, 200)
-drawStar(20, 380)
-drawStar(380, 380)
+drawStar 20, 20
+drawStar 380, 20
+drawStar 200, 200
+drawStar 200, 200
+drawStar 20, 380
+drawStar 380, 380
