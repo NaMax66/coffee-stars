@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "coffee -o lib/ -cw src/"
+    "start": "coffee -o ./ -cw ./"
   },
   "author": "Max",
   "license": "ISC",

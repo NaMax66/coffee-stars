@@ -3,13 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <title>Magic Stars</title>
-  <link rel="stylesheet" href="styles.css">
+  <style type="text/css">
+    .wrapper {
+      width: 600px;
+      margin: 0 auto;
+    }
+    .wrapper canvas {
+      margin-bottom: 1rem;
+    }
+  </style>
 </head>
 <body>
   <div class="wrapper">
     <canvas id="stars-canvas" width="600" height="600"></canvas>
-    <canvas id="indicator" width="600" height="50"></canvas>
-    <div id="status"></div>
+    <canvas id="status" width="600" height="50"></canvas>
   </div>
   <script src="lib/script.js"></script>
 </body>
