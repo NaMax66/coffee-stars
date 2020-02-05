@@ -3,6 +3,7 @@ starsCanvas = starsCanvasElement.getContext '2d'
 statusCanvasElement = document.getElementById 'status'
 statusCanvas = statusCanvasElement.getContext '2d'
 
+### Рисуем прямоугольник. Изначально он белый ###
 drawRect = (ctx, color = '#fff', params = [0, 0, 600, 50]) ->
   ctx.beginPath()
   ctx.rect params[0], params[1], params[2], params[3]
@@ -14,7 +15,7 @@ drawStar = (x0 = 0, y0 = 0, fill = 'black') ->
   starsCanvas.beginPath()
   starsCanvas.moveTo x0,70 + y0
   starsCanvas.lineTo 72 + x0,70 + y0
-  starsCanvas.lineTo 95 + x0,y0
+  starsCanvas.lineTo 95 + x0, y0
   starsCanvas.lineTo 117 + x0,70 + y0
   starsCanvas.lineTo 190 + x0,70 + y0
   starsCanvas.lineTo 131 + x0,112 + y0
@@ -38,7 +39,7 @@ drawStar 200, 200, 'green'
 drawStar 20, 380, 'yellow'
 drawStar 380, 380
 
-### Риуем полоску статуса ###
+### Риуем полоску статуса. По умолчанию она белая ###
 drawRect statusCanvas
 
 rgbToHex = (r, g, b) ->
