@@ -8,11 +8,11 @@
 
   starsCanvasElement = document.getElementById('stars-canvas');
 
-  starsCanvas = starsCanvasElement.getContext('2d');
-
   statusCanvasElement = document.getElementById('status');
 
   statusCanvas = statusCanvasElement.getContext('2d');
+
+  starsCanvas = starsCanvasElement.getContext('2d');
 
   drawRect = function(ctx, color = '#fff', params = [0, 0, 600, 50]) {
     ctx.beginPath();
